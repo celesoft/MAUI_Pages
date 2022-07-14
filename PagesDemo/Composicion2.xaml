@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PagesDemo.Composicion2"
+             xmlns:local="clr-namespace:PagesDemo"
+             Title="Composicion2">
+    <Grid RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto" ColumnDefinitions="*,*,*">
+        <!-- 1. Profile picture-->
+        <Image Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Source="ciudad.png" Aspect="Fill" HeightRequest="400"/>
+
+        <!-- 2. Pet Card-->
+        <Frame Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" CornerRadius="40" HasShadow="False" Margin="20,-80,20,10" BackgroundColor="#f9f9f9" HeightRequest="100">
+            <Grid RowDefinitions="Auto,Auto,Auto" ColumnDefinitions="Auto,*,Auto" VerticalOptions="Center" HorizontalOptions="FillAndExpand" RowSpacing="10" Padding="20,5">
+                <!-- General information-->
+                <Label Grid.Row="0" Grid.Column="0" Text="Malaga" FontAttributes="Bold" FontSize="21" TextColor="Black"/>
+                <Image Grid.Row="0" Grid.Column="2" Source="symbol" Aspect="AspectFit" HorizontalOptions="End" WidthRequest="22" HeightRequest="22"/>
+                <Label Grid.Row="1" Grid.Column="0" Text="Andalucia, españa" TextColor="#797979" FontSize="17" />
+                <Image Grid.Row="1" Grid.Column="1" Source="clock" HorizontalOptions="End" Aspect="AspectFit"  WidthRequest="22" HeightRequest="22"/>
+                <Label Grid.Row="1" Grid.Column="2" Text="Verano" TextColor="#797979" FontSize="15" HorizontalTextAlignment="End" />
+                <Image Grid.Row="2" Grid.Column="0" Source="location" Aspect="AspectFit"  WidthRequest="22" HeightRequest="22" HorizontalOptions="Start" />
+                <Label Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" TextColor="#acacac" TranslationX="20" VerticalTextAlignment="Center" Text="Avenida de Colón Nº 1" HorizontalOptions="Center" FontSize="15"/>
+            </Grid>
+        </Frame>
+
+        <!--3. Details -->
+
+        <!-- Rounded image-->
+        <Frame Grid.Row="2" Grid.Column="0" Grid.RowSpan="2" BorderColor="White" HorizontalOptions="Center" WidthRequest="70" HeightRequest="70" HasShadow="False" CornerRadius="35" Padding="0" IsClippedToBounds="True">
+            <Image Source="profile" Aspect="AspectFill"/>
+        </Frame>
+
+        <!-- Main name, roles and date -->
+        <Label Grid.Row="2" Grid.Column="1" HorizontalOptions="Start" Text="Jose Carlos" TextColor="Black" FontAttributes="Bold" Margin="0,30,0,0"/>
+        <Label Grid.Row="2" Grid.Column="2" Text="24.01.2022" HorizontalTextAlignment="End" TextColor="#acacac" Margin="0,30,25,0" FontSize="14"/>
+        <Label Grid.Row="3" Grid.Column="1" HorizontalOptions="Start" Text="Propietario" TextColor="#acacac"/>
+
+        <!-- Description-->
+        <Label Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="3" Margin="{OnPlatform Android='35,20,35,15', iOS='35,20,35,0'}" TextColor="#a5a5a5" Text="Persona divertida, amable, carismatica y con muchas inquietudes y ganas de aprender, le gusta mucho disfrutar de familiares y amigos, Le gusta el deporte y se considera friki."/>
+
+        <!--Buttons-->
+        <Button Grid.Row="5" Grid.Column="0" TextColor="Black" Text="♡" BackgroundColor="White" BorderColor="Silver" BorderWidth="1" WidthRequest="50" HeightRequest="50" CornerRadius="25" HorizontalOptions="End" />
+        <Button Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" Text="Contactar" FontAttributes="Bold" CornerRadius="22" TextColor="Black" Clicked="Button_Clicked" BackgroundColor="#fbce56" Margin="20,0,40,0" />
+
+    </Grid>
+</ContentPage>

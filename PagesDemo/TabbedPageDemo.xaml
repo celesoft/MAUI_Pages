@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PagesDemo.TabbedPageDemo"
+              xmlns:local="clr-namespace:PagesDemo"
+             Title="TabbedPageDemo">
+
+    <local:Composicion2 Title="Uno"></local:Composicion2>
+    <ContentPage Title="Dos">
+        <Label Text="Dos"></Label>
+    </ContentPage>
+    <local:MainPage Title="Tres"></local:MainPage>
+
+</TabbedPage>

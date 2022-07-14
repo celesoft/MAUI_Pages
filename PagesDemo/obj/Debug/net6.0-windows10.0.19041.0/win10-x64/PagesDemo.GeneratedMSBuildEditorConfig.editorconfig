@@ -1,0 +1,64 @@
+is_global = true
+build_property.TargetFramework = net6.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PagesDemo
+build_property.ProjectDir = C:\Temp\PagesDemo\PagesDemo\
+
+[C:/Temp/PagesDemo/PagesDemo/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PagesDemo.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Temp/PagesDemo/PagesDemo/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PagesDemo.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Temp/PagesDemo/PagesDemo/Composicion2.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PagesDemo.Composicion2.xaml
+build_metadata.AdditionalFiles.TargetPath = Composicion2.xaml
+build_metadata.AdditionalFiles.RelativePath = Composicion2.xaml
+
+[C:/Temp/PagesDemo/PagesDemo/FlyoutMenu.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PagesDemo.FlyoutMenu.xaml
+build_metadata.AdditionalFiles.TargetPath = FlyoutMenu.xaml
+build_metadata.AdditionalFiles.RelativePath = FlyoutMenu.xaml
+
+[C:/Temp/PagesDemo/PagesDemo/FlyoutPageDemo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PagesDemo.FlyoutPageDemo.xaml
+build_metadata.AdditionalFiles.TargetPath = FlyoutPageDemo.xaml
+build_metadata.AdditionalFiles.RelativePath = FlyoutPageDemo.xaml
+
+[C:/Temp/PagesDemo/PagesDemo/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PagesDemo.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Temp/PagesDemo/PagesDemo/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PagesDemo.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Temp/PagesDemo/PagesDemo/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PagesDemo.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Temp/PagesDemo/PagesDemo/TabbedPageDemo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PagesDemo.TabbedPageDemo.xaml
+build_metadata.AdditionalFiles.TargetPath = TabbedPageDemo.xaml
+build_metadata.AdditionalFiles.RelativePath = TabbedPageDemo.xaml
